@@ -14,8 +14,4 @@ export default {
 </script>
 
 <style lang="scss" module>
-.home {
-  color: green;
-  font-size: 80px;
-}
 </style>
