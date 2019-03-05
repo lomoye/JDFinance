@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import Slider from '../core/Slider.vue'
+import Slider from '../core/Slider'
 export default {
    data() {
        return {

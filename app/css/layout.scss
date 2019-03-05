@@ -5,3 +5,10 @@
     flex-direction: $direction
     flex-wrap： wrap;
 }
+
+//文本不换行省略号
+@mixin ellipsis() {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
