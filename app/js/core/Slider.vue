@@ -6,7 +6,7 @@
                <router-link :to="{ name: item.href }">
                   <img :src="item.src" alt="">
                </router-link>
-               <div class="swiper-pagination" v-if="options.pagination/>
+               <div class="swiper-pagination" v-if="options.pagination"/>
             </swiper-slide>
          </swiper>
       </section>
@@ -47,6 +47,6 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 @import "~swiper/dist/css/swiper.css";
 </style>
