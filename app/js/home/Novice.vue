@@ -68,34 +68,42 @@ export default {
       &:first-child {
         padding: 32px 20px;
         text-align: center;
+        border-right: 1px solid #ddd;
       }
       h4 {
-          font-size: 26px;
-          line-height: 40px;
+        font-size: 26px;
+        line-height: 40px;
       }
       .red {
-          color: #f00;
+        color: #f00;
       }
       .gray {
         color: #999;
         font-size: 24px;
       }
+      p {
+        margin: 6px 0;
+        font-size: 24px;
+      }
       ul {
+        width: 100%;
+        li {
+          height: 144px;
           width: 100%;
-          li {
-              height: 144px;
-              width: 100%;
-              padding: 32px 28px;
-              box-sizing: border-box;
-              img {
-                  width: 80px;
-                  height: 80px;
-                  float: right;
-              }
-              h4 {
-                  @include ellipsis
-              }
+          padding: 32px 28px;
+          box-sizing: border-box;
+          &:first-child {
+            border-bottom: 1px solid #ddd;
           }
+          img {
+            width: 80px;
+            height: 80px;
+            float: right;
+          }
+          h4 {
+            @include ellipsis;
+          }
+        }
       }
     }
   }
