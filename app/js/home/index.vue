@@ -8,6 +8,7 @@
         <product/>
         <life/>
         <footor/>
+        <navbar/>
 
     </div>
 </template>
@@ -21,6 +22,7 @@ import Money from './Money.vue'
 import Product from './Product.vue'
 import Life from './Life.vue'
 import Footor from '../public/Footer.vue'
+import Navbar from '../public/Navbar.vue'
  
 export default {
   components: {
@@ -31,7 +33,8 @@ export default {
     Money,
     Product,
     Life,
-    Footor
+    Footor,
+    Navbar
   }
 }
 </script>
