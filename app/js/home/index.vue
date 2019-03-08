@@ -7,6 +7,7 @@
         <money/>
         <product/>
         <life/>
+        <footor/>
 
     </div>
 </template>
@@ -19,7 +20,8 @@ import Borrow from './Borrow.vue'
 import Money from './Money.vue'
 import Product from './Product.vue'
 import Life from './Life.vue'
-
+import Footor from '../public/Footer.vue'
+ 
 export default {
   components: {
     Heador,
@@ -28,11 +30,12 @@ export default {
     Borrow,
     Money,
     Product,
-    Life
+    Life,
+    Footor
   }
 }
 </script>
 
 <style lang="scss" module>
-@import '../../css/element.scss'
+
 </style>
